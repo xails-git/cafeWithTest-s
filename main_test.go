@@ -145,7 +145,7 @@ func TestCafeSearch(t *testing.T) {
 		for _, cafe := range cafes {
 			lowerCafe := strings.ToLower(cafe)
 			if !strings.Contains(lowerCafe, lowerSearch) {
-				t.Errorf("не совпадения параметра search с искомым")
+				t.Errorf("не совпадения параметра search c искомым")
 				continue
 			}
 		}
